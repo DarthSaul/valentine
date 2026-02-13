@@ -96,9 +96,9 @@ function onYes() {
 	<!-- Celebration Screen -->
 	<div v-else class="card celebration">
 		<div class="celebration-icon">🎉</div>
-		<h1>Yay!!!</h1>
+		<h1>Great Choice! Woohoo!</h1>
 		<p class="celebration-subtitle">
-			Happy Valentine's Day, Abby! ❤️
+			Happy Valentine's Day Baby ❤️
 		</p>
 		<img
 			class="celebration-img"
@@ -118,6 +118,9 @@ function onYes() {
 	max-width: 600px;
 	width: 90vw;
 	max-height: 95vh;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
 }
 
 .icon {
@@ -250,5 +253,7 @@ h1 {
 	max-width: 100%;
 	border-radius: 16px;
 	margin-top: 1.5rem;
+	min-height: 0;
+	object-fit: contain;
 }
 </style>
