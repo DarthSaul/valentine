@@ -1,31 +1,32 @@
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 :root {
-  font-family: 'Georgia', 'Times New Roman', serif;
-  line-height: 1.5;
-  font-weight: 400;
-  color: #4a2040;
-  background-color: #ffe4ec;
+	font-family: 'Georgia', 'Times New Roman', serif;
+	line-height: 1.5;
+	font-weight: 400;
+	color: #4a2040;
+	background-color: #ffe4ec;
 }
 
 body {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #ffe4ec;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffe4ec;
 }
 
 #app {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 1rem;
 }
